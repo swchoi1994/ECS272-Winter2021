@@ -45,11 +45,6 @@ body {
     stroke: #C0C0BB;
     
   }
-  
-  div.right {
-      position: right;
-      position: absolute;
-  }
 
   .axis-label {
     font-size: 5em;
