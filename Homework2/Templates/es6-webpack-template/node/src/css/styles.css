@@ -1,3 +1,64 @@
-h1 {
-    color: red;
-}
+body {
+    margin: 10px;
+    overflow: hidden;
+    background: #262626;
+  }
+  
+  rect {
+    fill: steelblue
+  }
+  
+  h1 {
+    margin: 10px;
+    color: white;
+    margin-top: 20px;
+  }
+
+  h2 {
+    color: rgb(12, 235, 231);
+    margin-top: 30px;
+    margin: 10px;
+  }
+
+  h3 {
+    margin: 10px;
+    color: white;
+    margin-top: 35px;
+  }
+
+  p {
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:beige;
+  }
+
+  text {
+    font-family: sans-serif;
+  }
+  
+  .tick text {
+    font-size: 2.7em;
+    fill: #635F5D;
+  }
+  
+  .tick line {
+    stroke: #C0C0BB;
+    
+  }
+  
+  div.right {
+      position: right;
+      position: absolute;
+  }
+
+  .axis-label {
+    font-size: 5em;
+    fill: #8E8883;
+  }
+  
+  .title {
+    font-size: 3.2em;
+    fill: #635F5D;
+    margin: 10px;
+    color: white;
+  }

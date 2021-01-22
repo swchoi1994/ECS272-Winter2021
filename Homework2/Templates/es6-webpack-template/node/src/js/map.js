@@ -1,8 +1,7 @@
 import * as d3 from "d3";
 
-export function drawBarChart(data, id) {
-
-    const margin = { top: 40, right: 40, bottom: 120, left: 100 };
+export function drawMap(data, id) {
+    const margin = { top: 40, right: 80, bottom: 120, left: 100 };
     const height = 400;
     const width = 500;
 
@@ -52,10 +51,7 @@ export function drawBarChart(data, id) {
                 .clone()
                 .attr("transform", `rotate(-90)`)
                 .attr("text-anchor", "middle")
-                .attr("x", -(30 - margin.top - margin.bottom) / 2)
+                .attr("x", -(15 - margin.top - margin.bottom) / 2)
                 .attr("y", -80)
                 .attr("font-weight", "bold"))
 }
-
-
-
