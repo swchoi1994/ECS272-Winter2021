@@ -1,9 +1,9 @@
 import * as d3 from "d3";
 
-export function drawBarChart(data, id) {
+export function drawBarChart2(data, id) {
 
-    const margin = { top: 20, right: 40, bottom: 100, left: 80 };
-    const height = 300;
+    const margin = { top: -5, right: 10, bottom: 100, left: 80 };
+    const height = 200;
     const width = 400;
 
     const x = d3.scaleBand().domain(data.map(d => d.y))
@@ -33,7 +33,6 @@ export function drawBarChart(data, id) {
 
     const yAxis = g => g
         .attr("transform", `translate(${margin.left},0)`)
-        .text("Number of People")
         .call(d3.axisLeft(y))
 
     svg.append("g")
@@ -44,14 +43,14 @@ export function drawBarChart(data, id) {
         .style("text-anchor", "end")
         .attr("dx", "-.8em")
         .attr("dy", ".15em")
-        .attr("transform", "rotate(-65)")
+        .attr("transform", "rotate(-45)")
         .attr("font-weight", "bold");
 
     svg.append("g")
         .call(yAxis)
         .call(g => g.select(".tick:last-of-type text")
                 .clone()
-                .attr("transform", `rotate(-90)`)
+                .attr("transform", `rotate(-70)`)
                 .attr("text-anchor", "left")
                 .attr("x", -(30 - margin.top - margin.bottom) / 2)
                 .attr("y", -80)

@@ -1,44 +1,44 @@
 {
     "country":[
         {
-            "x": "China",
-            "y": 1415046
+            "x": 1415046,
+            "y": "China"
         },
         {
-            "x": "India",
-            "y": 1354052
+            "x": 1354052,
+            "y": "India"
         },
         {
-            "x": "United States",
-            "y": 326767
+            "x": 326767,
+            "y": "United States"
         },
         {
-            "x": "Indonesia",
-            "y": 266795
+            "x": 266795,
+            "y": "Indonesia"
         },
         {
-            "x": "Brazil",
-            "y": 210868
+            "x": 210868,
+            "y": "Brazil"
         },
         {
-            "x": "Parkistan",
-            "y": 200814
+            "x": 200814,
+            "y": "Parkistan"
         },
         {
-            "x": "Nigeria",
-            "y": 195875
+            "x": 195875,
+            "y": "Nigeria"
         },
         {
-            "x": "Bangladesh",
-            "y": 166368
+            "x": 166368,
+            "y": "Bangladesh"
         },
         {
-            "x": "Russia",
-            "y": 143965
+            "x": 143965,
+            "y": "Russia"
         },
         {
-            "x": "Mexico",
-            "y": 130759 
+            "x": 130759,
+            "y": "Mexico"
         }
     ]
 }
