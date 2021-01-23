@@ -55,6 +55,14 @@ body {
     bottom: 10px;
   }
 
+  div.bottomleft {
+    position: absolute;
+    right: 30px;
+    left: 70px;
+    top: 500px;
+    bottom: 20px;
+  }
+
   div.right{
     position: absolute;
     right: 0px;
@@ -108,3 +116,37 @@ body {
     margin: 10px;
     color: white;
   }
+
+  
+
+
+
+  .frame1 {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .map {
+    background: none;
+    min-height: 800px;
+  }
+
+  .vector path {
+    fill: none;
+    stroke: #35143C;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .vector .major_road { stroke: #D2A1EE; }
+  .vector .minor_road { stroke: #9A7DAD; }
+  .vector .highway { stroke: #f39; stroke-width: 1.5px; }
+  .vector .rail { stroke: #A1EEEB; }

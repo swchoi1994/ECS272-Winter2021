@@ -10,21 +10,18 @@ export function drawScatterplot(data, id) {
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
-                .attr("transform",
-                    "translate(" + margin.left + "," + margin.top + ")");
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         // Add X axis
-    var x = d3.scaleLinear().domain([0, 100]).range([ 0, width ]);
+    var x = d3.scaleLinear().domain([2010, 2020]).range([ 0, width ]);
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
         // Add Y axis
-    var y = d3.scaleLinear()
-            .domain([0, 100])
-            .range([ height, 0]);
-        svg.append("g")
-            .call(d3.axisLeft(y));
+    var y = d3.scaleLinear().domain([0, 100]).range([ height, 0]);
+           svg.append("g")
+              .call(d3.axisLeft(y));
 
         // Add dots
         svg.append('g')

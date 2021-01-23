@@ -1,21 +1,28 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 <html>
   <head>
     <title>ECS 272 Information Visualization Homework 2</title>
     <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script src="https://d3js.org/topojson.v0.min.js"></script>
+    <script src="https://d3js.org/d3.geo.tile.v0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.0.1/lodash.min.js"></script>
   </head>
   <body>
     <div>
       <h1>The Second Programming Assignment</h1>
       <h2>Designed by Seongwoo Choi in Winter 2021</h2>
       <h3>San Francisco Film Locations Dataset</h3>
-      <p>In San Francisco, there are many films produced. In this dashboard, we will have </p>
+      <p>In San Francisco, there are many films produced. In this dashboard, we will </p>
       <p>  have a look at three charts that display meaningful insights in CA film industry. </p>
-      <div class="static" id="bar"></div>    
+      <div class="static" id="bar"></div> 
+      <div class="bottomleft" id="map"></div>   
     </div>
 
     <div class="topright" id = "bar2">
-      <p class="type1">This chart shows the map of San Francisco with film locations in circle</p>
+      <p class="type1">This chart shows how many films were produced in years.</p>
     </div>
 
     <div class="bottomright" id = "scatter">
