@@ -1,0 +1,40 @@
+{
+    "data":[
+        {
+            "x": 136,
+            "y": "Steven Spielberg"
+        },
+        {
+            "x": 44,
+            "y": "James Cameron"
+        },
+        {
+            "x": 68,
+            "y": "Ron Howard"
+        },
+        {
+            "x": 51,
+            "y": "Quentin Tarantino"
+        },
+        {
+            "x": 90,
+            "y": "Martin Scorsese"
+        },
+        {
+            "x": 20,
+            "y": "David Fincher"
+        },
+        {
+            "x": 21,
+            "y": "Stanley Kubrick"
+        },
+        {
+            "x": 51,
+            "y": "Alfred Hitchcock"
+        },
+        {
+            "x": 27,
+            "y": "Christopher Nolan"
+        }
+    ]
+}
