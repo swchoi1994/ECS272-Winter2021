@@ -9,6 +9,7 @@ import {drawBarChart} from "./js/barchart"; /* Example of importing one function
 import {drawBarChart2} from "./js/barchart2"; 
 import {drawScatterplot} from "./js/scatterplot";
 import {drawMap} from "./js/map";
+//import {drawPieChart} from "./js/piechart";
 
 
 let x = 2;
@@ -18,6 +19,7 @@ console.log(productionData);
 drawBarChart(testData["data"], "#bar");
 drawBarChart2(countryData["country"], '#bar2');
 drawScatterplot(productionData["production"], '#scatter');
+//drawPieChart(productionData["production"], '#piechart');
 drawMap('#map');
 
 /* 
