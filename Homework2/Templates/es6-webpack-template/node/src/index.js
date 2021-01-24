@@ -1,5 +1,6 @@
 // This is the end of trial!!! 
 import testData from "./data/test.json";
+
 import countryData from "./data/country.json";
 import productionData from "./data/production.json";
 /* Example of reading in data */
@@ -9,6 +10,7 @@ import {drawBarChart} from "./js/barchart"; /* Example of importing one function
 import {drawBarChart2} from "./js/barchart2"; 
 import {drawScatterplot} from "./js/scatterplot";
 import {drawMap} from "./js/map";
+
 
 let x = 2;
 console.log(testData);

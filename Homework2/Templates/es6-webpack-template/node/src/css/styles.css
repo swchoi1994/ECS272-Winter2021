@@ -34,7 +34,7 @@ body {
   p.type1 {
     margin: 15px;
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(181, 181, 153);
+    color:rgb(255, 255, 255);
   }
 
   text {
@@ -96,7 +96,7 @@ body {
   }
 
   .tick text {
-    font-size: 1.7em;
+    font-size: 1.2em;
     fill: #000000;
   }
   
@@ -116,10 +116,6 @@ body {
     margin: 10px;
     color: white;
   }
-
-  
-
-
 
   .frame1 {
     width: 980px;

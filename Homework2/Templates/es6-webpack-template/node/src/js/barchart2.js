@@ -43,7 +43,7 @@ export function drawBarChart2(data, id) {
         .style("text-anchor", "end")
         .attr("dx", "-.8em")
         .attr("dy", ".15em")
-        .attr("transform", "rotate(-45)")
+        .attr("transform", "rotate(-25)")
         .attr("font-weight", "bold");
 
     svg.append("g")

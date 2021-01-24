@@ -1,44 +1,24 @@
 {
     "country":[
         {
-            "x": 1415046,
-            "y": "China"
+            "x": 141,
+            "y": "Epic Roasthouse (399 Embarcadero)"
         },
         {
-            "x": 1354052,
-            "y": "India"
+            "x": 135,
+            "y": "Mason & California Streets (Nob Hill)"
         },
         {
-            "x": 326767,
-            "y": "United States"
+            "x": 326,
+            "y": "Justin Herman Plaza"
         },
         {
-            "x": 266795,
-            "y": "Indonesia"
+            "x": 266,
+            "y": "200 block Market Street"
         },
         {
-            "x": 210868,
-            "y": "Brazil"
-        },
-        {
-            "x": 200814,
-            "y": "Parkistan"
-        },
-        {
-            "x": 195875,
-            "y": "Nigeria"
-        },
-        {
-            "x": 166368,
-            "y": "Bangladesh"
-        },
-        {
-            "x": 143965,
-            "y": "Russia"
-        },
-        {
-            "x": 130759,
-            "y": "Mexico"
+            "x": 210,
+            "y": "City Hall"
         }
     ]
 }

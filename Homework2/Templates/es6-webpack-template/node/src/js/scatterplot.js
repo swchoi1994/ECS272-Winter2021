@@ -1,4 +1,5 @@
 import * as d3 from "d3";
+// import {data_pre_processing, data_cleaning} from data_pre_processing;
 
 export function drawScatterplot(data, id) {
     const margin = {top: 10, right: 30, bottom: 30, left: 40};
