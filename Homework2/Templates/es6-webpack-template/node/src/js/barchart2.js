@@ -41,7 +41,7 @@ export function drawBarChart2(data, id) {
         .call(xAxis)
         .selectAll("text")
         .style("text-anchor", "end")
-        .attr("dx", "-.8em")
+        .attr("dx", "-.1em")
         .attr("dy", ".15em")
         .attr("transform", "rotate(-25)")
         .attr("font-weight", "bold");

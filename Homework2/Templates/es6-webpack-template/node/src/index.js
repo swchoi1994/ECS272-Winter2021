@@ -1,6 +1,5 @@
 // This is the end of trial!!! 
 import testData from "./data/test.json";
-
 import countryData from "./data/country.json";
 import productionData from "./data/production.json";
 /* Example of reading in data */
